@@ -71,12 +71,14 @@ window.addEventListener('keydown', (e) => {
 })
 
 function check(){
-	if(inputValue.value != ""){
+	if(inputValue.value != "" && todos.length < 6){
 		new item(inputValue.value);
         todos.push(inputValue.value);
         window.localStorage.setItem("todos", JSON.stringify(todos));
 		inputValue.value = "";
-	}
+	} else {
+        window.alert("Database error");
+    }
 }
 
 
@@ -84,5 +86,3 @@ for (var v = 0 ; v < todos.length ; v++){
     new item(todos[v]);
 }
 
-
-new item("sport");
