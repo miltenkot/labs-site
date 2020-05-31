@@ -49,6 +49,11 @@ body {
   border-bottom: 2px solid transparent;
   border-color: white;
 }
+
+span.active, span:hover {
+  font-weight: bold;
+}
+
 .nav-section-text {
   text-decoration: none;
   color: black;
@@ -113,6 +118,7 @@ footer .container {
   display: flex;
   align-items: center;
   justify-content: center;
+
 
 }
 
