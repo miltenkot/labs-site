@@ -42,7 +42,6 @@ class item{
         itemBox.appendChild(remove);
 
     }
-
     edit(input, name){
         if(input.disabled == true){
            input.disabled = !input.disabled;
@@ -54,7 +53,6 @@ class item{
             window.localStorage.setItem("todos", JSON.stringify(todos));
         }
     }
-
     remove(itemBox, name){
         itemBox.parentNode.removeChild(itemBox);
         let index = todos.indexOf(name);
@@ -62,14 +60,12 @@ class item{
         window.localStorage.setItem("todos", JSON.stringify(todos));
     }
 }
-
 add.addEventListener('click', check);
 window.addEventListener('keydown', (e) => {
 	if(e.which == 13){
 		check();
 	}
 })
-
 function check(){
 	if(inputValue.value != "" && todos.length < 7){
 		new item(inputValue.value);
@@ -77,12 +73,9 @@ function check(){
         window.localStorage.setItem("todos", JSON.stringify(todos));
 		inputValue.value = "";
 	} else {
-        
+
     }
 }
-
-
 for (var v = 0 ; v < todos.length ; v++){
     new item(todos[v]);
 }
-

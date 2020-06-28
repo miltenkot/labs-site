@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #11203E;
@@ -12,28 +11,23 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .container {
   margin: 0 auto;
   max-width: 930px;
   width: 100%;
   padding: 0 15px;
 }
-
 .last-text {
   margin: auto;
   width: 50%;
   padding: 10px;
 }
-
-
 /** HEADER **/
 .header {
   background-image: url("../assets/bg.jpg");
   background-size: cover;
   background-position: center bottom;
 }
-
 .header .container {
   text-align: center;
   display: flex;
@@ -41,7 +35,6 @@ body {
   align-items: center;
   height: 520px;
 }
-
 .header h1 {
   font-size: 60px;
   font-weight: 700;
@@ -58,52 +51,42 @@ body {
   border-bottom: 2px solid transparent;
   border-color: white;
 }
-
 span.active, span:hover {
   font-weight: bold;
 }
-
 .nav-section-text {
   text-decoration: none;
   color: black;
   text-transform: lowercase;
   font-size: 15px;
 }
-
 a span {
   color: white;
 }
-
-
 /** BOXES **/
 .boxes {
   background-color: #11203E;
   padding: 80px 0;
 }
-
 .boxes .container {
   display: flex;
   align-items: center;
 }
-
 .boxes .box {
   text-align: center;
   padding: 0 20px;
 }
-
 .boxes .box-title {
   font-weight: 600;
   font-size: 27px;
   margin: 30px 0;
 }
-
 .boxes .box-content {
   font-weight: 300;
   font-size: .9em;
   line-height: 1.2em;
   color: #b7b7b7;
 }
-
 .boxes .box-btn {
   font-weight: 600;
   color: #fff;
@@ -114,8 +97,6 @@ a span {
   border-radius: 20px;
   margin-top: 30px;
 }
-
-
 /** FOOTER **/
 footer {
   text-align: center;
@@ -124,7 +105,6 @@ footer {
   height: 50px;
   text-align:: center;
 }
-
 footer p {
   color: #b7b7b7;
 }
@@ -132,9 +112,7 @@ footer p {
 video {
   padding: 10%;
   width: 100%;
-
 }
-
 /** javascripts **/
 h1 {
   color: black;
@@ -146,23 +124,19 @@ h1 {
 h3 {
   margin-left: 30px;
 }
-
 code {
   background-color: white;
 }
-
 .title{
   color: Orange;
   text-transform: uppercase;
   font-weight: 80;
 }
-
 .inputDiv{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .input{
     padding: 0.5rem 1rem;
     outline: none;
@@ -175,9 +149,7 @@ code {
     font-size: 1rem;
     color: white;
     background-color: black;
-
 }
-
 .add{
   outline: none;
     border: none;
@@ -191,11 +163,9 @@ code {
     transition: .5s;
     margin: 0.25rem;
 }
-
 .add:hover{
   opacity: 0.7;
 }
-
 .container-list{
   display: flex;
   flex-direction: column;
@@ -204,13 +174,11 @@ code {
   text-align: center;
   margin-top: 2rem;
 }
-
 .item{
   padding: 0.5rem;
   border-bottom: 4px solid #fff;
   margin-bottom: 1.5rem;
 }
-
 .item_input{
   background: none;
   outline: none;
@@ -219,7 +187,6 @@ code {
   font-size: 1.4rem;
   width: 245px;
 }
-
 .edit{
   background: none;
   outline: none;
@@ -229,7 +196,6 @@ code {
   margin: 0 0.5rem;
   cursor: pointer;
 }
-
 .remove{
   background: none;
   outline: none;
