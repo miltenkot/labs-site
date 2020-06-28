@@ -71,13 +71,13 @@ window.addEventListener('keydown', (e) => {
 })
 
 function check(){
-	if(inputValue.value != "" && todos.length < 6){
+	if(inputValue.value != "" && todos.length < 7){
 		new item(inputValue.value);
         todos.push(inputValue.value);
         window.localStorage.setItem("todos", JSON.stringify(todos));
 		inputValue.value = "";
 	} else {
-        window.alert("Database error");
+        
     }
 }
 
